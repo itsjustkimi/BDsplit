@@ -30,6 +30,7 @@ for x in range(args.StartingChapter, max_chapter, args.Chapters):
     print(cmd)
     os.system(cmd)
     args.Chapters += iterator
+    args.StartingChapter += iterator
     counter += 1
 
 # Finish up 
